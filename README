@@ -1,0 +1,9 @@
+mod3 - Recuperador de atributos de arquivos
+
+O mod3 surgiu da necessidade de restaurar os atributos de uma estação de
+trabalho SUN depois de um "chmod -Rf 755 /". Como reinstalar o Solaris 7 seria
+algo muito dispensioso e lento naquela máquina, surgiu a idéia de "copiar" os
+atributos de uma outra máquina idêntica porém com alguns softwares a menos
+instalados. Não é a solução ideal mas é um bom quebra galho. O ideal seria,
+depois de instalar e configurar o sistema, gerar uma cópia dos atributos para
+poder utilizar o mod3 caso necessário no futuro.
